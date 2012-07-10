@@ -48,3 +48,15 @@ function extended_tinymce_allowed_styles($hook, $type, $items, $vars) {
 
         return $allowed_styles;
 }
+
+function extended_tinymce_get_site_language() {
+
+        if ($site_language = elgg_get_config('language')) {
+                $path = elgg_get_plugins_path() . "extended_tinymce/vendor/tinymce/jscripts/tiny_mce/langs";
+                if (file_exists("$path/$site_language.js")) {
+                        return $site_language;
+                }
+        }
+
+        return 'en';
+}

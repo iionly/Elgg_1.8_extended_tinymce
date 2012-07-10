@@ -39,6 +39,7 @@ elgg.extended_tinymce.init = function() {
 		editor_selector : "elgg-input-longtext",
 		theme : "advanced",
 		skin : "cirkuit",
+                language : "<?php echo extended_tinymce_get_site_language(); ?>",
 		plugins : "lists,autosave,fullscreen,style,table,advhr,advimage,emotions,inlinepopups,insertdatetime,preview,media,searchreplace,print,contextmenu,paste,directionality,noneditable,visualchars,nonbreaking,xhtmlxtras",
 		relative_urls : false,
 		remove_script_host : false,
