@@ -1,6 +1,6 @@
 Elgg Extended Tinymce plugin for Elgg 1.8
-Latest Version: 3.5.5
-Released: 2012-07-24
+Latest Version: 3.5.6
+Released: 2012-07-26
 Contact: iionly@gmx.de
 License: GNU General Public License version 2
 Copyright: (c) iionly 2012, (C) Curverider 2008-2010
@@ -12,7 +12,7 @@ Website: http://www.tinymce.com/
 
 
 
-An extended tinymce plugin based on version 3.5.5 of the TinyMCE editor.
+An extended tinymce plugin based on version 3.5.6 of the TinyMCE editor.
 
 
 
