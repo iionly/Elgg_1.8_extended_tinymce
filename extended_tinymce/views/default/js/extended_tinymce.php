@@ -47,7 +47,7 @@ elgg.extended_tinymce.init = function() {
 		document_base_url : elgg.config.wwwroot,
 		theme_advanced_buttons1 : "newdocument,|,bold,italic,underline,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,|,fontselect,fontsizeselect",
 		theme_advanced_buttons2 : "cut,copy,paste,pastetext,pasteword,|,bullist,numlist,table,|,outdent,indent,blockquote,|,undo,redo,|,link,unlink",
-		theme_advanced_buttons3 : "print,|,insertdate,inserttime,|,forecolor,backcolor,|,image,emotions,|,fullscreen <?php if (elgg_is_admin_logged_in()) { ?> ,|,code <?php } ?>",
+		theme_advanced_buttons3 : "print,|,insertdate,inserttime,|,forecolor,backcolor,|,image,emotions,|,fullscreen" + (elgg.is_admin_logged_in() ? ",|,code" : ""),
 		theme_advanced_toolbar_location : "top",
 		theme_advanced_toolbar_align : "left",
 		theme_advanced_statusbar_location : "bottom",
