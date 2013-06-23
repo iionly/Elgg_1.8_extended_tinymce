@@ -11,20 +11,20 @@
 ?>
 /* TinyMCE */
 .elgg-page .mceEditor table.mceLayout {
-	border: 1px solid #CCC;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+    border: 1px solid #CCC;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 .elgg-page table.mceLayout tr.mceFirst td.mceToolbar,
 .elgg-page table.mceLayout tr.mceLast td.mceStatusbar {
-	border-width: 0px;
+    border-width: 0px;
 }
 .mceButton {
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
 }
 .mceLast .mceStatusbar {
-	padding-left: 5px;
+    padding-left: 5px;
 }

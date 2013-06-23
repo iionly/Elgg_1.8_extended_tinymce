@@ -1,22 +1,24 @@
 Elgg Extended Tinymce plugin for Elgg 1.8
-Latest Version: 3.5.8
-Released: 2012-11-24
+Latest Version: 4.0 r20
+Released: 2013-06-23
 Contact: iionly@gmx.de
 License: GNU General Public License version 2
-Copyright: (c) iionly 2012, (C) Curverider 2008-2010
+Copyright: (c) iionly 2012-2013, (C) Curverider 2008-2013
 
 The TinyMCE editor is licensed under
 GNU Lesser General Public License version 2.1
-(c) 2003-2012 Moxiecode Systems AB.
+(c) 2003-2013 Moxiecode Systems AB.
 Website: http://www.tinymce.com/
 
 
 
-An extended tinymce plugin based on version 3.5.8 of the TinyMCE editor.
+An extended tinymce plugin based on version 4.0 of the TinyMCE editor.
 
 
 
 Instructions:
+
+(0.) If you have a previous version of the Extended Tinymce plugin installed, disable it and then remove the extended_tinymce from your mod directory before copying the new version on the server,
 
 1. Copy/extract the extended_tinymce archive into the mod folder,
 
@@ -26,12 +28,12 @@ Instructions:
 
 
 
-Adding a language:
+Adding a language for the tinymce editor (not to be mixed up with adding an Elgg language file for the plugin):
 
 1. Download the language pack from http://www.tinymce.com/i18n/index.php?ctrl=lang&act=download,
 
-2. Extract the files from the zip file,
+2. Extract the language files from the zip file,
 
-3. Copy the langs, plugins, and themes directories into mod/extended_tinymce/vendor/tinymce/jscripts/tiny_mce/. There are already directories with those names but don't delete these existing directories but simply copy the files and folders included in the language pack over these directories,
+3. Copy the language files into the  mod/extended_tinymce/vendor/tinymce/js/tinymce/langs/ directory,
 
 4. Flush the Elgg caches via the admin dashboard on your site.
