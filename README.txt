@@ -1,6 +1,6 @@
 Elgg Extended Tinymce plugin for Elgg 1.8
-Latest Version: 4.0 r20
-Released: 2013-06-23
+Latest Version: 4.0.1 r21
+Released: 2013-06-26
 Contact: iionly@gmx.de
 License: GNU General Public License version 2
 Copyright: (c) iionly 2012-2013, (C) Curverider 2008-2013
@@ -12,7 +12,9 @@ Website: http://www.tinymce.com/
 
 
 
-An extended tinymce plugin based on version 4.0 of the TinyMCE editor.
+An extended tinymce plugin based on version 4.0.1 of the TinyMCE editor.
+
+For backward compatibility with version 3 of the editor the folder extended_tinymce/vendor/tinymce/jscripts/tiny_mce/plugins/emotions/img contains the emoticons images at the location where they were available before.
 
 
 

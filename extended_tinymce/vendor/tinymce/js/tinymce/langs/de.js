@@ -78,7 +78,7 @@ tinymce.addI18n('de',{
 "Alternative source": "Alternative Quelle",
 "Paste your embed code below:": "F\u00fcgen Sie Ihren code hier:",
 "Insert video": "Video einf\u00fcgen",
-"Embed": "Einbettung",
+"Embed": "Einbetten",
 "Nonbreaking space": "Gesch\u00fctztes Leerzeichen",
 "Page break": "Seitenumbruch",
 "Preview": "Voransicht",
