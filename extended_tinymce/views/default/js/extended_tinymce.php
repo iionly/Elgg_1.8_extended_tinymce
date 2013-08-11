@@ -53,18 +53,6 @@ elgg.extended_tinymce.init = function() {
         image_advtab: true,
         paste_data_images: false,
         insertdate_formats: ["%I:%M:%S %p", "%H:%M:%S", "%Y-%m-%d", "%d.%m.%Y"],
-        setup : function(ed) {
-                    ed.on('Init', function() {
-                        var edDoc = ed.getDoc();
-                        if ("addEventListener" in edDoc) {
-                            edDoc.addEventListener("drop", function(e) {
-                                if (e.dataTransfer.files.length > 0) {
-                                    e.preventDefault();
-                                }
-                            }, false);
-                        }
-                    });
-                },
         content_css: elgg.config.wwwroot + 'mod/extended_tinymce/css/elgg_extended_tinymce.css'
     });
 }
