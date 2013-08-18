@@ -43,7 +43,7 @@ elgg.extended_tinymce.init = function() {
         relative_urls : false,
         remove_script_host : false,
         document_base_url : elgg.config.wwwroot,
-        plugins: "advlist autolink autosave charmap code compat3x emoticons fullscreen hr image insertdatetime link lists paste preview print searchreplace table textcolor wordcount",
+        plugins: "advlist autolink autosave charmap code emoticons fullscreen hr image insertdatetime link lists paste preview print searchreplace table textcolor wordcount",
         menubar: false,
         toolbar1: "newdocument preview fullscreen print | searchreplace | styleselect | fontselect | fontsizeselect",
         toolbar2: "undo redo | bullist numlist | outdent indent | bold italic underline | alignleft aligncenter alignright alignjustify",

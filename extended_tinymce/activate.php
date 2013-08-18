@@ -4,7 +4,7 @@
  */
 
 if (elgg_get_config('language') != extended_tinymce_get_site_language()) {
-    $message = elgg_echo('extenden_tinymce:lang_notice', array(
+    $message = elgg_echo('extended_tinymce:lang_notice', array(
                 elgg_echo(elgg_get_config('language')),
                 "http://www.tinymce.com/i18n/index.php?ctrl=lang&act=download",
                 elgg_get_plugins_path() . "extended_tinymce/vendor/tinymce/js/tinymce/",
