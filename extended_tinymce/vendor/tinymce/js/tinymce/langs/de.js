@@ -85,6 +85,7 @@ tinymce.addI18n('de',{
 "Remove link": "Verweis entfernen",
 "Url": "Url",
 "Text to display": "Text anzeigen",
+"Anchors": "Textmarken",
 "Insert link": "Link einf\u00fcgen",
 "New window": "Neues Fenster",
 "None": "Nichts",

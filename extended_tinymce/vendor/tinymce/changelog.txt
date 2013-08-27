@@ -1,3 +1,37 @@
+Version 4.0.5 (2013-08-27)
+	Added visuals for UL, LI and BR to visualblocks plugin. Patch contributed by Dan Ransom.
+	Added new autosave_restore_when_empty option to autosave plugin. Enabled by default.
+	Fixed bug where an exception was thrown when inserting images if valid_elements didn't include an ID for the image.
+	Fixed bug where the advlist plugin wouldn't properly render the splitbutton controls.
+	Fixed bug where visual blocks menu item wouldn't be marked checked when using the visualblocks_default_state option.
+	Fixed bug where save button in save plugin wouldn't get properly enabled when contents was changed.
+	Fixed bug where it was possible to insert images without any value for it's source attribute.
+	Fixed bug where altering image attributes wouldn't add a new undo level.
+	Fixed bug where import rules in CSS files wouldn't be properly imported by the importcss plugin.
+	Fixed bug where selectors could be imported multiple times. Producing duplicate formats.
+	Fixed bug where IE would throw exception if selection was changed while the editor was hidden.
+	Fixed so complex rules like .class:before doesn't get imported by default in the importcss plugin.
+	Fixed so it's possible to remove images by setting the src attribute to a blank value.
+	Fixed so the save_enablewhendirty setting in the save plugin is enabled by default.
+	Fixed so block formats drop down for classic mode can be translated properly using language packs.
+	Fixed so hr menu item and toolbar button gets the same translation string.
+	Fixed so bullet list toolbar button gets the correct translation from language packs.
+	Fixed issue with Chrome logging CSS warning about border styling for combo boxes.
+	Fixed issue with Chrome logging warnings about deprecated keyLocation property.
+	Fixed issue where custom_elements would not remove the some of the default rules when cloning rules from div and span.
+Version 4.0.4 (2013-08-21)
+	Added new importcss plugin. Lets you auto import classes from CSS files similar to the 3.x behavior.
+	Fixed bug where resize handles would be positioned incorrectly when inline element parent was using position: relative.
+	Fixed bug where IE 8 would throw Unknown runtime error if the editor was placed within a P tag.
+	Fixed bug where removing empty lists wouldn't produce blocks or brs where the old list was in the DOM.
+	Fixed bug where IE 10 wouldn't properly initialize template dialog due to async loading issues.
+	Fixed bug where autosave wouldn't properly display the warning about content not being saved due to isDirty changes.
+	Fixed bug where it wouldn't be possible to type if a touchstart event was bound to the parent document.
+	Fixed bug where code dialog in code plugin wouldn't wouldn't add a proper undo level.
+	Fixed issue where resizing the editor in vertical mode would set the iframe width to a pixel value.
+	Fixed issue with naming of insertdatetime settings. All are now prefixed with the plugin name.
+	Fixed so an initial change event is fired when the user types the first character into the editor.
+	Fixed so swf gets mapped to object element in media plugin. Enables embedding of flash with alternative poster.
 Version 4.0.3 (2013-08-08)
 	Added new code_dialog_width/code_dialog_height options to control code dialog size.
 	Added missing pastetext button that works the same way as the pastetext menu item.
