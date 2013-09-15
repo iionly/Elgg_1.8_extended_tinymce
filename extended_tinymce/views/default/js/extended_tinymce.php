@@ -45,6 +45,7 @@ elgg.extended_tinymce.init = function() {
         document_base_url : elgg.config.wwwroot,
         plugins: "advlist autolink autosave charmap code emoticons fullscreen hr image insertdatetime link lists paste preview print searchreplace table textcolor wordcount",
         menubar: false,
+        toolbar_items_size: "small",
         toolbar1: "newdocument preview fullscreen print | searchreplace | styleselect | fontselect | fontsizeselect",
         toolbar2: "undo redo | bullist numlist | outdent indent | bold italic underline | alignleft aligncenter alignright alignjustify",
         toolbar3: "inserttime | charmap | hr | table | forecolor backcolor | link unlink | image | emoticons | blockquote" + (elgg.is_admin_logged_in() ? " | code" : ""),
