@@ -1,6 +1,6 @@
 Elgg Extended Tinymce plugin for Elgg 1.8 + Elgg 1.9
-Latest Version: 4.0.8 r27
-Released: 2013-10-10
+Latest Version: 4.0.10 r28
+Released: 2013-11-03
 Contact: iionly@gmx.de
 License: GNU General Public License version 2
 Copyright: (c) iionly 2012-2013, (C) Curverider 2008-2013
@@ -12,7 +12,7 @@ Website: http://www.tinymce.com/
 
 
 
-An extended tinymce plugin based on version 4.0.8 of the TinyMCE editor. It should work both on Elgg 1.8 and Elgg 1.9.
+An extended tinymce plugin based on version 4.0.10 of the TinyMCE editor. It should work both on Elgg 1.8 and Elgg 1.9.
 
 For backward compatibility with version 3 of the editor the folder extended_tinymce/vendor/tinymce/jscripts/tiny_mce/plugins/emotions/img contains the emoticons images at the location where they were available before.
 
@@ -27,6 +27,16 @@ Instructions:
 2. Disable the Elgg core tinymce plugin,
 
 3. Enable the extended_tinymce plugin.
+
+
+
+Creating your own custom skin:
+
+1. Configure your custom skin at http://skin.tinymce.com/ and download it,
+
+2. Copy your skin folder into the extended_tinymce/vendor/tinymce/js/tinymce/skins directory,
+
+3. Change the skin name of the skin option in extended_tinymce/views/default/js/extended_tinymce.php to the name of your skin.
 
 
 
