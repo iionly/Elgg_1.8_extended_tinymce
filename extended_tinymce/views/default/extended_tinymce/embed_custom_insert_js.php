@@ -3,6 +3,6 @@ if (window.tinyMCE) {
 
     if (editor) {
 
-        editor.execCommand("mceInsertContent", true, content);
+        editor.execCommand("mceInsertContent", false, content);
     }
 }
